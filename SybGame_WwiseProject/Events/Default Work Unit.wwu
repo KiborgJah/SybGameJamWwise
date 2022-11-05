@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E46179F-CBC9-4342-ADD2-DD922F94DD3F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2E46179F-CBC9-4342-ADD2-DD922F94DD3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestEvent" ID="{8925725A-1F6E-46BA-A8E4-1450DC6EEC6D}">
+					<ChildrenList>
+						<Action Name="" ID="{6B374497-63C7-41DB-9073-03D64A26ACF8}" ShortID="243377663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Designed, Stinger, Impact, Big Hit 02 SND11657" ID="{A5DB3BA1-4B7A-4484-8AC3-E1D3E018B999}" WorkUnitID="{442C7B5F-08D9-43F7-9A2F-BEFFE3694B8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

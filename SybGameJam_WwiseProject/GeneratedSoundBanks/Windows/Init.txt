@@ -1,0 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	15699892	GamePlayMode			\Default Work Unit\GamePlayMode	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GamePlayMode			
+	1484744319	ExplorationState	GamePlayMode			
+	2675729146	BattleState	GamePlayMode			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

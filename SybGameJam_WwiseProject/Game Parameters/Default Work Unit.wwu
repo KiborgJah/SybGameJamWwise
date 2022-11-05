@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Stamina" ID="{2AB56945-8E83-4AF6-A353-D40EC58AA85D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="GamePlayIntancity" ID="{2746DEAD-D813-4616-95E4-5D38BF8A5324}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="40"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FarVariation" ID="{75452772-C192-494D-A9B4-DDF62A7832EF}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="1000"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

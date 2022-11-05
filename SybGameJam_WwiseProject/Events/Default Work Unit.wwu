@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06D80765-FBBA-491A-9040-894FB848ACAB}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{06D80765-FBBA-491A-9040-894FB848ACAB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{CC71E234-E337-44DB-A5D6-D78A71D4E210}" ShortID="759389163">
+					<ChildrenList>
+						<Event Name="Breathing" ID="{D5DE2984-7A7F-4F52-B18D-FF220F4EC507}">
+							<ChildrenList>
+								<Action Name="" ID="{46718BC1-9B62-4F4E-80F2-832743DEF779}" ShortID="376861395">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breathing" ID="{499F7F9A-EEDE-4BA0-90F2-F3314CE6528C}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mooving" ID="{44AF75A6-2448-42A4-8F41-B9C7651EBF57}">
+							<ChildrenList>
+								<Action Name="" ID="{E2AA44CD-9CBA-4EA9-9058-47FE424B1D6D}" ShortID="201336038">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Locomotion" ID="{96084211-4893-4F31-8D34-0DF527472D5B}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ThingsOnMap" ID="{58ECC8E6-4398-45C8-B41C-BBF923C3C0EE}" ShortID="684296884">
+					<ChildrenList>
+						<Event Name="ObeliskVoice" ID="{C8BEBD1C-2013-493A-A81C-96A8CECF0FBA}">
+							<ChildrenList>
+								<Action Name="" ID="{04F66B91-DE3B-4703-B97E-7375D07F5E25}" ShortID="173833166">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voises" ID="{EC518A24-80E8-4BAA-B2DA-F45725955341}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Torch" ID="{83DB7DAD-AE16-4AE0-92BB-C837BCB218B9}">
+							<ChildrenList>
+								<Action Name="" ID="{26987EB7-7CA6-4219-8917-C6B7CB1C832E}" ShortID="960546647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{8680788B-657A-4569-AE4B-06295E20E39F}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Flags" ID="{227BCBAA-B3F3-452E-BD5F-E2D8E62D95FD}">
+							<ChildrenList>
+								<Action Name="" ID="{233645BE-4EF0-4071-929A-272C12DD22E6}" ShortID="642600480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flags" ID="{939EE30E-9399-4CF8-AAB3-BCFB18A3A839}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

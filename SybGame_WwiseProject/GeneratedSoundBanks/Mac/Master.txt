@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1097980931	TestEvent			\Default Work Unit\TestEvent	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	224817515	Designed, Stinger, Impact, Big Hit 02 SND11657	O:\MyProjects\UE4\JAMFUCK\SybGame\SybGame_WwiseProject\.cache\Mac\SFX\SFX\Designed, Stinger, Impact, Big Hit 02 SND11657_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Designed, Stinger, Impact, Big Hit 02 SND11657		1298520
-
